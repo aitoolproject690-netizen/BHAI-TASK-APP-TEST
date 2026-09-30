@@ -1,5 +1,28 @@
 <!doctype html>
 <html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>BHAI X Test App</title></head>
-<body><h1>BHAI X GitHub Test</h1><p>File created and verified by BHAI X.</p></body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BHAI X Test App</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding: 40px; }
+    .card { max-width: 600px; margin: auto; }
+    .btn { padding: 12px 20px; border-radius: 8px; background: #111; color: white; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>BHAI X</h1>
+    <p>Test landing page.</p>
+    <button class="btn" onclick="startNow()">Start Now</button>
+  </div>
+
+  <script>
+    function startNow() {
+      const message = "Welcome to BHAI X";
+      console.log(message;
+      document.body.insertAdjacentHTML("beforeend", "<p>" + message + "</p>");
+    }
+  </script>
+</body>
 </html>
